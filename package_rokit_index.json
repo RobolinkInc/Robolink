@@ -12,7 +12,7 @@
             {
                "name": "rokit",
                "architecture": "avr",
-               "version": "1.0",
+               "version": "1.0.0",
                "category": "Arduino",
                "url": "http://community.robolink.com/wp-content/uploads/2016/05/RokitSmartInventor.zip",
                "archiveFileName": "RokitSmartInventor.zip",
@@ -48,7 +48,7 @@
             {
                "name": "rokit",
                "architecture": "avr",
-               "version": "1.1",
+               "version": "1.0.1",
                "category": "Arduino",
                "url": "http://community.robolink.com/wp-content/uploads/2016/06/RokitSmartInventor_1.0.2.zip",
                "archiveFileName": "RokitSmartInventor_1.0.2.zip",
