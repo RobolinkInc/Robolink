@@ -4,9 +4,9 @@
          "name":"rokit",
          "maintainer":"ROBOLINK",
          "websiteURL":"http://robolink.com/",
-         "email":" ",
+         "email":"info@robolink.com ",
          "help":{
-            "online":"http://community.robolink.com"
+            "online":"http://robolink.com"
          },
          "platforms":[
             {
@@ -54,6 +54,42 @@
                "archiveFileName": "RokitSmartInventor_1.0.2.zip",
                "checksum": "SHA-256:b42bf090995aebfaa5a692b6af738c5303d004c55fff48834d86b9b9040551d4",
                "size": "427340",
+               "help":{
+                  "online":" "
+               },
+               "boards": [
+                  {
+                     "name": "Ardu-X100_v1"
+                  },{
+                     "name": "Ardu-X200_v1"
+                  },{
+                     "name": "SmartInventor-mega32_v1"
+                  },{
+                     "name": "SmartInventor-mega32_v2"
+                  }
+               ],
+              "toolsDependencies": [
+                {
+                  "packager": "arduino",
+                  "name": "avr-gcc",
+                  "version": "4.8.1-arduino5"
+                },
+                {
+                  "packager": "arduino",
+                  "name": "avrdude",
+                  "version": "6.0.1-arduino5"
+                }
+              ]
+            },
+            {
+               "name": "rokit",
+               "architecture": "avr",
+               "version": "1.0.3",
+               "category": "Arduino",
+               "url": "http://www.robolink.com/wp-content/uploads/2016/07/RokitSmartInventor_1.0.3.zip",
+               "archiveFileName": "RokitSmartInventor_1.0.3.zip",
+               "checksum": "SHA-256:F4E912AA494C1E158461E7D64B69DDFF70E6B87855CDF09A840E3BB286ABE4E4",
+               "size": "429196",
                "help":{
                   "online":" "
                },
