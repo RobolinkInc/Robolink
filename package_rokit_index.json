@@ -1,162 +1,180 @@
 {
-   "packages":[
-      {
-         "name":"rokit",
-         "maintainer":"ROBOLINK",
-         "websiteURL":"http://robolink.com/",
-         "email":"info@robolink.com ",
-         "help":{
-            "online":"http://robolink.com"
-         },
-         "platforms":[
+  "packages":[
+    {
+      "name":"rokit",
+      "maintainer":"ROBOLINK",
+      "websiteURL":"http://robolink.com/",
+      "email":"info@robolink.com ",
+      "help":{
+        "online":"http://robolink.com"
+      },
+      
+      "platforms":[
+        {
+          "name": "rokit",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Arduino",
+          "url": "http://community.robolink.com/wp-content/uploads/2016/05/RokitSmartInventor.zip",
+          "archiveFileName": "RokitSmartInventor.zip",
+          "checksum": "SHA-256:bb1487891999762a8d057bd908bc9e39681f9e883510f2ed289fe3601c578bb6",
+          "size": "427283",
+          "help":{
+            "online":" "
+          },
+          
+          "boards": [
             {
-               "name": "rokit",
-               "architecture": "avr",
-               "version": "1.0.0",
-               "category": "Arduino",
-               "url": "http://community.robolink.com/wp-content/uploads/2016/05/RokitSmartInventor.zip",
-               "archiveFileName": "RokitSmartInventor.zip",
-               "checksum": "SHA-256:bb1487891999762a8d057bd908bc9e39681f9e883510f2ed289fe3601c578bb6",
-               "size": "427283",
-               "help":{
-                  "online":" "
-               },
-               "boards": [
-                  {
-                     "name": "Ardu-X100_v1"
-                  },{
-                     "name": "Ardu-X200_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v2"
-                  }
-               ],
-              "toolsDependencies": [
-                {
-                  "packager": "arduino",
-                  "name": "avr-gcc",
-                  "version": "4.8.1-arduino5"
-                },
-                {
-                  "packager": "arduino",
-                  "name": "avrdude",
-                  "version": "6.0.1-arduino5"
-                }
-              ]
+              "name": "Ardu-X100_v1"
             },
             {
-               "name": "rokit",
-               "architecture": "avr",
-               "version": "1.0.1",
-               "category": "Arduino",
-               "url": "http://community.robolink.com/wp-content/uploads/2016/06/RokitSmartInventor_1.0.2.zip",
-               "archiveFileName": "RokitSmartInventor_1.0.2.zip",
-               "checksum": "SHA-256:b42bf090995aebfaa5a692b6af738c5303d004c55fff48834d86b9b9040551d4",
-               "size": "427340",
-               "help":{
-                  "online":" "
-               },
-               "boards": [
-                  {
-                     "name": "Ardu-X100_v1"
-                  },{
-                     "name": "Ardu-X200_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v2"
-                  }
-               ],
-              "toolsDependencies": [
-                {
-                  "packager": "arduino",
-                  "name": "avr-gcc",
-                  "version": "4.8.1-arduino5"
-                },
-                {
-                  "packager": "arduino",
-                  "name": "avrdude",
-                  "version": "6.0.1-arduino5"
-                }
-              ]
+              "name": "Ardu-X200_v1"
             },
             {
-               "name": "rokit",
-               "architecture": "avr",
-               "version": "1.0.3",
-               "category": "Arduino",
-               "url": "http://www.robolink.com/wp-content/uploads/2016/07/RokitSmartInventor_1.0.3.zip",
-               "archiveFileName": "RokitSmartInventor_1.0.3.zip",
-               "checksum": "SHA-256:F4E912AA494C1E158461E7D64B69DDFF70E6B87855CDF09A840E3BB286ABE4E4",
-               "size": "429196",
-               "help":{
-                  "online":" "
-               },
-               "boards": [
-                  {
-                     "name": "Ardu-X100_v1"
-                  },{
-                     "name": "Ardu-X200_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v2"
-                  }
-               ],
-              "toolsDependencies": [
-                {
-                  "packager": "arduino",
-                  "name": "avr-gcc",
-                  "version": "4.8.1-arduino5"
-                },
-                {
-                  "packager": "arduino",
-                  "name": "avrdude",
-                  "version": "6.0.1-arduino5"
-                }
-              ]
+              "name": "SmartInventor-mega32_v1"
             },
             {
-               "name": "rokit",
-               "architecture": "avr",
-               "version": "1.0.4",
-               "category": "Arduino",
-               "url": "http://www.robolink.com/wp-content/uploads/2016/07/RokitSmartInventor_1.0.3.zip",
-               "archiveFileName": "RokitSmartInventor_1.0.3.zip",
-               "checksum": "SHA-256:F4E912AA494C1E158461E7D64B69DDFF70E6B87855CDF09A840E3BB286ABE4E4",
-               "size": "429196",
-               "help":{
-                  "online":" "
-               },
-               "boards": [
-                  {
-                     "name": "Ardu-X100_v1"
-                  },{
-                     "name": "Ardu-X200_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v1"
-                  },{
-                     "name": "SmartInventor-mega32_v2"
-                  }
-               ],
-              "toolsDependencies": [
-                {
-                  "packager": "arduino",
-                  "name": "avr-gcc",
-                  "version": "7.3.0-atmel3.6.1-arduino5"
-                },
-                {
-                  "packager": "arduino",
-                  "name": "avrdude",
-                  "version": "6.3.0-arduino17"
-                }
-              ]
+              "name": "SmartInventor-mega32_v2"
             }
-         ],
+          ],
+          
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
 
-         "tools":[
-         ]
-      }
-   ]
+        {
+          "name": "rokit",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Arduino",
+          "url": "http://community.robolink.com/wp-content/uploads/2016/06/RokitSmartInventor_1.0.2.zip",
+          "archiveFileName": "RokitSmartInventor_1.0.2.zip",
+          "checksum": "SHA-256:b42bf090995aebfaa5a692b6af738c5303d004c55fff48834d86b9b9040551d4",
+          "size": "427340",
+          "help":{
+            "online":" "
+          },
+
+          "boards": [
+            {
+              "name": "Ardu-X100_v1"
+            },
+            {
+              "name": "Ardu-X200_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+
+        {
+          "name": "rokit",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Arduino",
+          "url": "http://www.robolink.com/wp-content/uploads/2016/07/RokitSmartInventor_1.0.3.zip",
+          "archiveFileName": "RokitSmartInventor_1.0.3.zip",
+          "checksum": "SHA-256:F4E912AA494C1E158461E7D64B69DDFF70E6B87855CDF09A840E3BB286ABE4E4",
+          "size": "429196",
+          "help":{
+            "online":" "
+          },
+          "boards": [
+            {
+              "name": "Ardu-X100_v1"
+            },
+            {
+              "name": "Ardu-X200_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+
+        {
+          "name": "rokit",
+          "architecture": "avr",
+          "version": "1.0.4",
+          "category": "Arduino",
+          "url": "http://www.robolink.com/wp-content/uploads/2016/07/RokitSmartInventor_1.0.3.zip",
+          "archiveFileName": "RokitSmartInventor_1.0.3.zip",
+          "checksum": "SHA-256:F4E912AA494C1E158461E7D64B69DDFF70E6B87855CDF09A840E3BB286ABE4E4",
+          "size": "429196",
+          "help":{
+            "online":" "
+          },
+          "boards": [
+            {
+              "name": "Ardu-X100_v1"
+            },
+            {
+              "name": "Ardu-X200_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v1"
+            },
+            {
+              "name": "SmartInventor-mega32_v2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
 }
